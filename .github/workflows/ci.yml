@@ -1,0 +1,20 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python -m py_compile app.py
+      - name: safe-by-default check
+        run: |
+          python - <<'PY'
+          import app
+          assert app.EXECUTION_ENABLED is False, "must default to dry-run"
+          assert app._resolve("id -u #{x}", {"x":"root"}) == "id -u root"
+          print("safe-default ok")
+          PY
