@@ -229,7 +229,7 @@ def _matrix(q):
 
 PAGE = """<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Soc-Validate — Purple-Team Detection Validation</title><style>
+<title>SOC Validate — Purple-Team Detection Validation</title><style>
 :root{--bg:#0d1117;--panel:#161b22;--bd:#30363d;--txt:#e6edf3;--dim:#8b949e;--accent:#58a6ff;--pass:#3fb950;--blind:#f85149;--act:#d29922;--unt:#21262d}
 *{box-sizing:border-box}body{margin:0;font-family:'JetBrains Mono',ui-monospace,monospace;background:var(--bg);color:var(--txt)}
 header{display:flex;align-items:center;justify-content:space-between;padding:14px 22px;border-bottom:1px solid var(--bd);background:var(--panel)}
