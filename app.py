@@ -256,7 +256,7 @@ pre{background:#0a1020;border:1px solid var(--bd);border-radius:6px;padding:10px
 select{background:#0a1020;border:1px solid var(--bd);color:var(--txt);padding:6px;border-radius:6px;font-family:inherit;width:100%;margin:6px 0}
 .legend span{font-size:10px;margin-right:10px}
 </style></head><body><a href="/manual" target="_blank" title="Manual / Help" style="position:fixed;top:12px;right:14px;z-index:99999;width:30px;height:30px;border-radius:50%;background:#161b22;border:1px solid #30363d;color:#58a6ff;font:700 16px/30px system-ui,sans-serif;text-align:center;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,.4)" onmouseover="this.style.borderColor='#58a6ff'" onmouseout="this.style.borderColor='#30363d'">?</a>
-<header><h1>SOC-VALIDATE <small>purple team · Atomic Red Team</small></h1>
+<header><h1>SOC Validate <small>purple team · Atomic Red Team</small></h1>
 <div class="meta" id="meta">loading…</div></header>
 <div class="wrap">
   <div id="execwarn"></div>
