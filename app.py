@@ -230,7 +230,7 @@ def _matrix(q):
 PAGE = """<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Soc-Validate — Purple-Team Detection Validation</title><style>
-:root{--bg:#070b12;--panel:#0f1622;--bd:#1d2a3a;--txt:#c9d6e5;--dim:#6f8199;--accent:#ff5c7c;--pass:#00e0a4;--blind:#ff3860;--act:#ffd166;--unt:#31415a}
+:root{--bg:#0d1117;--panel:#161b22;--bd:#30363d;--txt:#e6edf3;--dim:#8b949e;--accent:#58a6ff;--pass:#3fb950;--blind:#f85149;--act:#d29922;--unt:#21262d}
 *{box-sizing:border-box}body{margin:0;font-family:'JetBrains Mono',ui-monospace,monospace;background:var(--bg);color:var(--txt)}
 header{display:flex;align-items:center;justify-content:space-between;padding:14px 22px;border-bottom:1px solid var(--bd);background:var(--panel)}
 h1{margin:0;font-size:18px;letter-spacing:1px;color:var(--accent)}h1 small{font-weight:400;opacity:.55;font-size:.6em;color:var(--txt)}
@@ -245,8 +245,8 @@ input{background:#0a1020;border:1px solid var(--bd);color:var(--txt);padding:7px
 .cell{border:1px solid var(--bd);border-radius:6px;padding:8px;font-size:11px;cursor:pointer}
 .cell:hover{border-color:var(--accent)}
 .cell .t{font-weight:700}.cell .d{color:var(--dim);font-size:10px;overflow:hidden;height:26px}
-.PASS{background:rgba(0,224,164,.14);border-color:var(--pass)}.BLIND{background:rgba(255,56,96,.14);border-color:var(--blind)}
-.ACTIVITY{background:rgba(255,209,102,.14);border-color:var(--act)}.UNKNOWN{background:rgba(120,130,150,.12)}
+.PASS{background:rgba(63,185,80,.14);border-color:var(--pass)}.BLIND{background:rgba(248,81,73,.14);border-color:var(--blind)}
+.ACTIVITY{background:rgba(210,153,34,.14);border-color:var(--act)}.UNKNOWN{background:rgba(139,148,158,.12)}
 .UNTESTED{}
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.7);display:none;align-items:center;justify-content:center;padding:20px;z-index:10}
 .modal .box{background:var(--panel);border:1px solid var(--accent);border-radius:10px;max-width:760px;width:100%;max-height:88vh;overflow:auto;padding:18px}
