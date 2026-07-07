@@ -45,3 +45,8 @@ python3 app.py                       # :8104
 
 ## License
 App: MIT. Atomic Red Team: MIT. No copyleft.
+
+
+## Documentation
+
+See **[MANUAL.md](MANUAL.md)** for the full manual (overview, configuration, endpoints, integration, troubleshooting). In the running dashboard, click the **`?` Help button** in the top-right corner to open it at `/manual`.
