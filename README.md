@@ -1,5 +1,7 @@
 # soc-validate — purple-team detection validation
 
+> Atomic Red Team detection-validation runner for blue teams — safe, execution-off by default, self-hosted.
+
 Closes the loop on the SOC: proves detections actually fire. Bundles **Atomic Red
 Team**, runs an ATT&CK technique's Linux atomic, then asks **soc-ops** whether a
 matching alert appeared → **PASS / ACTIVITY / BLIND**. Builds a coverage heatmap.
