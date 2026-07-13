@@ -2,6 +2,11 @@
 
 > Atomic Red Team detection-validation runner for blue teams — safe, execution-off by default, self-hosted.
 
+<p align="center">
+  <img src="docs/screenshot.png" alt="soc-validate dashboard screenshot" width="100%">
+</p>
+
+
 Closes the loop on the SOC: proves detections actually fire. Bundles **Atomic Red
 Team**, runs an ATT&CK technique's Linux atomic, then asks **soc-ops** whether a
 matching alert appeared → **PASS / ACTIVITY / BLIND**. Builds a coverage heatmap.
